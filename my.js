@@ -107,7 +107,7 @@ function moreHash (hash, repeat) {
 	}
 }
 
-moreHash('7', 4);
+moreHash('1', 11);
 
 
 
