@@ -101,15 +101,14 @@ Object.keys(users).forEach(function(key) {
 
 
 
-function moreHash(hash, arr) {
-	var arr = ['#'];
-	for (var i = 0; i < hash; i++) {
-		console.log(arr.join(''));
-		arr.push('#');
+function moreHash (hash, repeat) {
+	for (var i = 1; i < repeat; i++) {
+		console.log(hash.repeat(i));
 	}
 }
 
-moreHash(10, arr);
+moreHash('7', 4);
+
 
 
 // 5. Function to generating fibonacci sequence.
